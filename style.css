@@ -39,12 +39,12 @@
  }
 
  .svg_a1{
-    width: 4rem;
+    width: 2.5rem;
     align-self: center;
  }
 
  .svg_a2{
-    width: 5rem; 
+    width: 3rem; 
     align-self: center;
  }
 
@@ -63,10 +63,11 @@
  /* content */
 
  .main_content{
-    height: 91.3vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
+    height: 90vh;
+ }
+
+ .row{
+   height: 100%;
  }
 
  .img_content{
@@ -78,6 +79,8 @@
   background-color: #2b7d6c;
   text-align: left;
   color: #fafafa;
+  padding-left: 6.5%;
+  padding-top: 4%;
  }
 
  .text_content h1{
@@ -86,11 +89,6 @@
 
  .text_content h2{
     font-size: 4rem;
- }
-
- .text_context1{
-    margin-top: 15%;
-    margin-left: 15%;
  }
 
  .buton1{
@@ -217,11 +215,6 @@
 
  .text_content2 h2{
     font-size: 4rem;
- }
-
- .text_context12{
-    margin-top: 15%;
-    margin-left: 15%;
  }
 
  .buton1{
